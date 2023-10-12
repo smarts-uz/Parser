@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import os
 import urllib.request
 
-fname = r"D:\Python Saved\parser\html_lists\messages.html"
+fname = r"mhtml_lists\messages.html"
 
 def get_html(file_path):
     HtmlFile = open(file_path, 'r', encoding='utf-8')
